@@ -1,0 +1,11 @@
+GitHub chaeng 저장소에 업로드하기
+
+1. 이 ZIP 압축을 풉니다.
+2. GitHub의 uploading an existing file 클릭.
+3. ShadowFlow_GitHub_APK_Ready 안의 파일·폴더를 저장소 최상위에 업로드합니다.
+   app, .github, build.gradle, settings.gradle, gradle.properties가 최상위여야 합니다.
+4. Commit changes 클릭.
+5. 저장소 Actions -> Build Shadow Flow APK -> 실행 확인.
+6. 성공하면 실행 화면 아래 Artifacts에서 ShadowFlow-debug-APK 다운로드.
+
+참고: 이 프로젝트는 아직 GitHub 실빌드 테스트를 통과하지 않았고, Gradle CLI 설치 문제 등으로 실패하면 로그를 확인해야 합니다.
